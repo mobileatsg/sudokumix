@@ -3,336 +3,55 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Privacy Policy for Sudoku Mix (iOS) by Mobile@SG" />
-  <title>Privacy Policy · Sudoku Mix</title>
+  <title>Support · Sudoku Mix</title>
   <style>
-    :root {
-      --ink: #1a1f2e;
-      --muted: #5a6170;
-      --bg: #f6f7fb;
-      --card: #ffffff;
-      --accent: #3b82f6;
-      --line: #e6e8ef;
-      --ok: #0d9488;
-    }
-    * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-size: 16px;
-      line-height: 1.65;
-      color: var(--ink);
-      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f6f7fb;
+      color: #1a1f2e;
+      line-height: 1.6;
     }
-    .wrap {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 32px 20px 64px;
-    }
-    header {
-      background: var(--card);
-      border: 1px solid var(--line);
+    .card {
+      max-width: 560px;
+      margin: 48px auto;
+      padding: 32px 28px;
+      background: #fff;
       border-radius: 16px;
-      padding: 28px 24px;
-      margin-bottom: 24px;
+      border: 1px solid #e6e8ef;
     }
-    h1 {
-      margin: 0 0 8px;
-      font-size: 1.75rem;
-      letter-spacing: -0.02em;
-    }
-    .meta {
-      color: var(--muted);
-      font-size: 0.95rem;
-      margin: 0;
-    }
-    .badge {
-      display: inline-block;
-      margin-top: 12px;
-      padding: 4px 10px;
-      border-radius: 999px;
-      background: #e0f2fe;
-      color: #0369a1;
-      font-size: 0.8rem;
-      font-weight: 600;
-    }
-    main {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 8px 24px 32px;
-    }
-    h2 {
-      margin: 28px 0 10px;
-      font-size: 1.15rem;
-      color: var(--ink);
-      border-bottom: 1px solid var(--line);
-      padding-bottom: 6px;
-    }
-    h3 {
-      margin: 18px 0 8px;
-      font-size: 1rem;
-    }
-    p, li { color: var(--ink); }
-    p { margin: 0 0 12px; }
-    ul { margin: 0 0 14px; padding-left: 1.25rem; }
-    li { margin-bottom: 6px; }
-    a { color: var(--accent); }
-    .note {
-      background: #f0fdf4;
-      border: 1px solid #bbf7d0;
-      border-radius: 12px;
-      padding: 12px 14px;
-      color: #14532d;
-      font-size: 0.95rem;
-      margin: 12px 0 16px;
-    }
-    .table-wrap { overflow-x: auto; margin: 12px 0 16px; }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.92rem;
-    }
-    th, td {
-      border: 1px solid var(--line);
-      padding: 10px 12px;
-      text-align: left;
-      vertical-align: top;
-    }
-    th { background: #f1f5f9; font-weight: 600; }
-    footer {
-      margin-top: 28px;
-      color: var(--muted);
-      font-size: 0.9rem;
-      text-align: center;
-    }
+    h1 { margin: 0 0 8px; font-size: 1.6rem; }
+    p { margin: 0 0 12px; color: #3a4150; }
+    a { color: #2563eb; }
+    .muted { color: #6b7280; font-size: 0.95rem; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <h1>Privacy Policy</h1>
-      <p class="meta"><strong>Sudoku Mix</strong> · iOS app<br />
-        Developer: <strong>Mobile@SG</strong><br />
-        Bundle ID: <code>com.mobilesg.sudoku</code></p>
-      <p class="meta">Effective date: <strong>29 July 2026</strong> · Last updated: <strong>29 July 2026</strong></p>
-      <span class="badge">App Store · TestFlight</span>
-    </header>
-
-    <main>
-      <div class="note">
-        This policy describes how <strong>Sudoku Mix</strong> handles information when you use the app.
-        We design the game so you can play without creating a traditional account or providing your real name, email, or payment card in-app.
-      </div>
-
-      <h2>1. Who we are</h2>
-      <p>
-        Sudoku Mix (“the App”, “we”, “us”) is published by <strong>Mobile@SG</strong>.
-        This Privacy Policy applies to the iOS application Sudoku Mix and related TestFlight / Staging builds where noted.
-      </p>
-      <p>
-        Contact for privacy questions:
-        <a href="mailto:mobileatsg@gmail.com">mobileatsg@gmail.com</a>
-      </p>
-
-      <h2>2. Summary</h2>
-      <ul>
-        <li>Most game progress, settings, and stats stay <strong>on your device</strong>.</li>
-        <li>Optional <strong>daily leaderboard</strong> uses <strong>Firebase</strong> (anonymous sign-in + cloud scores).</li>
-        <li>The free app shows <strong>Google AdMob</strong> ads (banner and interstitial).</li>
-        <li>We do <strong>not</strong> sell your personal information.</li>
-        <li>We do <strong>not</strong> require an email/password login to play Sudoku.</li>
-      </ul>
-
-      <h2>3. Information we process</h2>
-
-      <h3>3.1 Information stored on your device</h3>
-      <p>The App stores data locally (for example using Apple’s on-device storage such as UserDefaults) so the game can work offline and remember your preferences. This may include:</p>
-      <ul>
-        <li>Game progress (wins, board unlocks, best times, achievements, stats)</li>
-        <li>Settings (theme, language, difficulty preference, input style, mistake mode, etc.)</li>
-        <li>In-progress puzzle save (so you can resume a game)</li>
-        <li>A display nickname you choose for the leaderboard (optional; defaults to a short generic name)</li>
-        <li>A local random player identifier used before or alongside cloud identity</li>
-        <li>Ad-related timers (for example, limits on how often interstitial ads may show)</li>
-      </ul>
-      <p>This local data stays on your device unless you submit a daily score or ads/SDKs transmit technical data as described below. Deleting the App usually removes local data.</p>
-
-      <h3>3.2 Daily leaderboard (Firebase)</h3>
-      <p>
-        If Firebase is configured and you use the daily challenge leaderboard, the App may sign you in
-        <strong>anonymously</strong> with <strong>Firebase Authentication</strong> (no email or password collected by us)
-        and store scores in <strong>Google Cloud Firestore</strong>.
-      </p>
-      <p>Leaderboard-related data may include:</p>
-      <ul>
-        <li>Anonymous Firebase user ID</li>
-        <li>Display name (nickname you set, or a default like “Player XXXX”)</li>
-        <li>Daily puzzle performance: time, stars, hints used, mistakes, score</li>
-        <li>Board size, difficulty, and app identifier (e.g. production vs staging) used to keep boards fair</li>
-        <li>Timestamp of score updates</li>
-      </ul>
-      <p>
-        Leaderboard entries are visible to other players who load the same day’s board rankings.
-        Do not put personal data (real name, phone, email, address) in your display name.
-      </p>
-
-      <h3>3.3 Advertising (Google AdMob)</h3>
-      <p>
-        The App displays ads via <strong>Google Mobile Ads (AdMob)</strong>, including banner and interstitial ads.
-        Google and its partners may collect and process device and advertising information to serve, measure, and improve ads.
-      </p>
-      <p>Depending on your device settings and consent choices, this may involve:</p>
-      <ul>
-        <li>Device identifiers (including IDFA if you allow tracking on iOS)</li>
-        <li>IP address, device type, OS version, app version, and general location derived from IP</li>
-        <li>Ad interaction and performance data</li>
-        <li>SKAdNetwork conversion signals (as configured by Apple / ad networks)</li>
-      </ul>
-      <p>
-        On iOS, if the App requests App Tracking Transparency permission, you can choose
-        <strong>Allow</strong> or <strong>Ask App Not to Track</strong>.
-        If you deny tracking, the App continues to work and ads may still appear, typically as
-        non-personalized or limited ads under Google’s and Apple’s rules.
-      </p>
-      <p>
-        Learn more: <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Privacy Policy</a>
-        · <a href="https://support.google.com/admob/answer/6128543" rel="noopener noreferrer" target="_blank">AdMob &amp; privacy</a>
-        · <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer" target="_blank">How Google uses information from sites or apps that use our services</a>
-      </p>
-
-      <h3>3.4 Information we do not intentionally collect</h3>
-      <ul>
-        <li>We do not ask for your real name, postal address, or phone number as a condition of play.</li>
-        <li>We do not process payments inside Sudoku Mix for core free play (unless later features are added and this policy is updated).</li>
-        <li>We do not provide a social network feed or contacts access.</li>
-        <li>We do not use your device camera, microphone, or precise GPS for the core puzzle features.</li>
-      </ul>
-
-      <h2>4. How we use information</h2>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Purpose</th>
-              <th>Examples</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Provide the game</td>
-              <td>Generate puzzles, save progress, apply settings, resume games</td>
-            </tr>
-            <tr>
-              <td>Daily competition</td>
-              <td>Anonymous auth, submit and display leaderboard times</td>
-            </tr>
-            <tr>
-              <td>Keep the app free</td>
-              <td>Show AdMob ads; measure ad eligibility (e.g. interstitial interval)</td>
-            </tr>
-            <tr>
-              <td>Security &amp; integrity</td>
-              <td>Basic abuse prevention on leaderboard writes (via Firebase rules / service logic)</td>
-            </tr>
-            <tr>
-              <td>Legal compliance</td>
-              <td>Respond to lawful requests; update this policy</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <h2>5. Legal bases (where applicable)</h2>
-      <p>If you are in a region that requires a legal basis (for example the EEA/UK), we rely on:</p>
-      <ul>
-        <li><strong>Contract / service delivery</strong> — to run the App you requested</li>
-        <li><strong>Legitimate interests</strong> — to keep the App free with advertising, secure services, and improve reliability</li>
-        <li><strong>Consent</strong> — where required for personalized advertising / IDFA tracking (you may withdraw via iOS Settings → Privacy &amp; Security → Tracking)</li>
-      </ul>
-
-      <h2>6. Sharing of information</h2>
-      <p>We share data only as needed to operate the App:</p>
-      <ul>
-        <li><strong>Google Firebase</strong> — authentication and leaderboard database hosting</li>
-        <li><strong>Google AdMob / advertising partners</strong> — ad serving and measurement</li>
-        <li><strong>Apple</strong> — App Store distribution, standard platform analytics Apple may collect separately under Apple’s policies</li>
-        <li><strong>Other players</strong> — only leaderboard display name and score fields you submit</li>
-      </ul>
-      <p>We do not sell personal information. We may disclose information if required by law or to protect rights, safety, and integrity of the service.</p>
-
-      <h2>7. Data retention</h2>
-      <ul>
-        <li><strong>On-device data</strong> — retained until you delete the App or clear app data via iOS.</li>
-        <li><strong>Leaderboard scores</strong> — retained as long as needed to operate daily rankings; we may prune older days or inactive entries as the service evolves.</li>
-        <li><strong>Ad / Google data</strong> — subject to Google’s retention practices.</li>
-      </ul>
-
-      <h2>8. Security</h2>
-      <p>
-        We use reasonable technical measures appropriate to a consumer puzzle app (including transport security for network calls to Google services and server-side access rules for Firestore where configured).
-        No method of transmission or storage is 100% secure.
-      </p>
-
-      <h2>9. Children’s privacy</h2>
-      <p>
-        Sudoku Mix is a general-audience puzzle game. It is not directed at children under 13 (or the minimum age required in your country).
-        We do not knowingly collect personal information from children for the purpose of building profiles.
-        Parents and guardians who believe a child has provided personal information through a display name or other field should contact us; we will take reasonable steps to delete such data from systems we control.
-        Advertising to younger users is subject to Google and Apple policies; personalized ads depend on platform consent settings.
-      </p>
-
-      <h2>10. International transfers</h2>
-      <p>
-        Firebase and AdMob are operated by Google and may process data on servers outside your country (including the United States).
-        By using networked features (leaderboard, ads), you understand that such processing may occur under Google’s terms and safeguards.
-      </p>
-
-      <h2>11. Your choices and rights</h2>
-      <ul>
-        <li><strong>Tracking (iOS)</strong> — Settings → Privacy &amp; Security → Tracking → Sudoku Mix</li>
-        <li><strong>Limit Ad Tracking / personalized ads</strong> — also via device settings and, where shown, Google’s ad settings</li>
-        <li><strong>Display name</strong> — change or clear the nickname in the App (where available)</li>
-        <li><strong>Local data</strong> — delete the App to remove on-device storage</li>
-        <li><strong>Leaderboard</strong> — avoid submitting scores if you do not want a public nickname/score entry</li>
-        <li><strong>Access / deletion requests</strong> — email us; we will help with data under our control (local data on your phone requires action on your device)</li>
-      </ul>
-      <p>
-        Depending on your location, you may have rights to access, correct, delete, or restrict processing of personal data, or to lodge a complaint with a supervisory authority.
-      </p>
-
-      <h2>12. Third-party links and content</h2>
-      <p>
-        Ads may open third-party websites or apps. Their privacy practices are governed by those third parties, not by this policy.
-      </p>
-
-      <h2>13. Changes to this policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. The “Last updated” date at the top will change when we do.
-        Material changes may be highlighted in the App Store listing or in-app notice when practical.
-        Continued use of the App after an update means you accept the revised policy where permitted by law.
-      </p>
-
-      <h2>14. Apple App Store disclosure note</h2>
-      <p>
-        When you download the App from the Apple App Store, Apple may collect information under
-        <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer" target="_blank">Apple’s Privacy Policy</a>.
-        Our App Privacy labels in App Store Connect should be kept consistent with this document (data used for advertising; optional product interaction / gameplay content for leaderboard).
-      </p>
-
-      <h2>15. Contact</h2>
-      <p>
-        Privacy requests for Sudoku Mix:<br />
-        <strong>Mobile@SG</strong><br />
-        Email: <a href="mailto:mobileatsg@gmail.com">chachean84@gmail.com</a><br />
-        App: Sudoku Mix (<code>com.mobilesg.sudoku</code>)
-      </p>
-    </main>
-
-    <footer>
-      © 2026 MobileSG · Sudoku Mix Privacy Policy<br />
-      Host this file at a public HTTPS URL and paste that URL into App Store Connect → App Privacy / App Description.
-    </footer>
+  <div class="card">
+    <h1>Sudoku Mix Support</h1>
+    <p class="muted">iOS &amp; Android puzzle app by MobileSG</p>
+    <p>
+      Need help with gameplay, the daily leaderboard, ads, or accessibility?
+      Email us and we’ll get back as soon as we can.
+    </p>
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:chachean84@gmail.com?subject=Sudoku%20Mix%20Support">chachean84@gmail.com</a>
+    </p>
+    <p class="muted">
+      Please include your device model, OS version, and a short description of the issue.
+    </p>
+    <p>
+      <strong>Delete my data:</strong>
+      <a href="data-deletion.html">Request data deletion</a>
+      —
+      <a href="mailto:chachean84@gmail.com?subject=Sudoku%20Mix%20-%20Data%20deletion%20request&amp;body=Please%20delete%20my%20Sudoku%20Mix%20data.%0A%0APlatform%20(iOS%20or%20Android)%3A%20%0ADisplay%20name%20(if%20any)%3A%20%0A">send deletion email</a>
+    </p>
+    <p class="muted">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      ·
+      <a href="data-deletion.html">Data deletion</a>
+    </p>
   </div>
 </body>
 </html>
